@@ -1,0 +1,84 @@
+<RCC>
+    <qresource prefix="/kxmlgui5/kdenlive">
+        <file>kdenliveui.rc</file>
+    </qresource>
+    <qresource prefix="/qml">
+        <file alias="kdenlivemonitor.qml">monitor/view/kdenlivemonitor.qml</file>
+        <file alias="kdenliveclipmonitor.qml">monitor/view/kdenliveclipmonitor.qml</file>
+        <file alias="kdenlivemonitoreffectscene.qml">monitor/view/kdenlivemonitoreffectscene.qml</file>
+        <file alias="kdenlivemonitorcornerscene.qml">monitor/view/kdenlivemonitorcornerscene.qml</file>
+        <file alias="kdenlivemonitorrotoscene.qml">monitor/view/kdenlivemonitorrotoscene.qml</file>
+        <file alias="kdenlivemonitorsplit.qml">monitor/view/kdenlivemonitorsplit.qml</file>
+        <file alias="kdenlivemonitorsplittracks.qml">monitor/view/kdenlivemonitorsplittracks.qml</file>
+        <file alias="kdenlivemonitorripple.qml">monitor/view/kdenlivemonitorripple.qml</file>
+        <file alias="SceneToolBar.qml">monitor/view/SceneToolBar.qml</file>
+        <file alias="EffectToolBar.qml">monitor/view/EffectToolBar.qml</file>
+        <file alias="MonitorRuler.qml">monitor/view/MonitorRuler.qml</file>
+        <file alias="OverlayStandard.qml">monitor/view/OverlayStandard.qml</file>
+        <file alias="OverlayMinimal.qml">monitor/view/OverlayMinimal.qml</file>
+        <file alias="OverlayCenter.qml">monitor/view/OverlayCenter.qml</file>
+        <file alias="OverlayCenterDiagonal.qml">monitor/view/OverlayCenterDiagonal.qml</file>
+        <file alias="OverlayThirds.qml">monitor/view/OverlayThirds.qml</file>
+        <file alias="timeline.qml">timeline2/view/qml/timeline.qml</file>
+        <file alias="TrackHead.qml">timeline2/view/qml/TrackHead.qml</file>
+        <file alias="AudioLevels.qml">timeline2/view/qml/AudioLevels.qml</file>
+        <file alias="Track.qml">timeline2/view/qml/Track.qml</file>
+        <file alias="Ruler.qml">timeline2/view/qml/Ruler.qml</file>
+        <file alias="RulerZone.qml">timeline2/view/qml/RulerZone.qml</file>
+        <file alias="Clip.qml">timeline2/view/qml/Clip.qml</file>
+        <file alias="SubTitle.qml">timeline2/view/qml/SubTitle.qml</file>
+        <file alias="MixShape.qml">timeline2/view/qml/MixShape.qml</file>
+        <file alias="ClipThumbs.qml">timeline2/view/qml/ClipThumbs.qml</file>
+        <file alias="ClipAudioThumbs.qml">timeline2/view/qml/ClipAudioThumbs.qml</file>
+        <file alias="KeyframeView.qml">timeline2/view/qml/KeyframeView.qml</file>
+        <file alias="Composition.qml">timeline2/view/qml/Composition.qml</file>
+        <file alias="PulsingAnimation.qml">timeline2/view/qml/PulsingAnimation.qml</file>
+        <file alias="CornerSelectionShadow.qml">timeline2/view/qml/CornerSelectionShadow.qml</file>
+        <file alias="Timeline.js">timeline2/view/qml/Timeline.js</file>
+        <file alias="assetList.qml">assets/assetlist/view/qml/assetList.qml</file>
+        <file alias="AssetView.qml">assets/view/qml/AssetView.qml</file>
+        <file alias="transitionView.qml">transitions/view/qml/transitionView.qml</file>
+        <file alias="AssetMenu.qml">timeline2/view/qml/AssetMenu.qml</file>
+        <file alias="GuidesMenu.qml">timeline2/view/qml/GuidesMenu.qml</file>
+        <file alias="BuiltStack.qml">effects/effectstack/view/qml/BuiltStack.qml</file>
+        <file alias="EffectSlider.qml">effects/effectstack/view/qml/EffectSlider.qml</file>
+        <file alias="LiftGammaGain.qml">effects/effectstack/view/qml/LiftGammaGain.qml</file>
+        <file alias="splash.qml">qml/splash.qml</file>
+        <file alias="ZoomBar.qml">timeline2/view/qml/ZoomBar.qml</file>
+        <file alias="RSToolBar.qml">widgets/RSToolBar.qml</file>
+        <file alias="ProjectSettings.qml">widgets/ProjectSettings.qml</file>
+        <file>widgets/PopupButton.qml</file>
+        <file>widgets/TabHeader.qml</file>
+        <file alias="/rspanel/pages/TransitionBasicPage.qml">widgets/rspanel/pages/TransitionBasicPage.qml</file>
+        <file alias="/rspanel/pages/VideoBasicPage.qml">widgets/rspanel/pages/VideoBasicPage.qml</file>
+        <file alias="/rspanel/pages/VideoColorPage.qml">widgets/rspanel/pages/VideoColorPage.qml</file>
+        <file alias="/rspanel/pages/VideoPagesHelper.js">widgets/rspanel/pages/VideoPagesHelper.js</file>
+        <file alias="/rspanel/comps/KeyframesButton.qml">widgets/rspanel/comps/KeyframesButton.qml</file>
+        <file alias="/rspanel/comps/PanelTabButton.qml">widgets/rspanel/comps/PanelTabButton.qml</file>
+        <file alias="/rspanel/comps/PanelValueField.qml">widgets/rspanel/comps/PanelValueField.qml</file>
+        <file alias="/rspanel/comps/ResetValueButton.qml">widgets/rspanel/comps/ResetValueButton.qml</file>
+        <file alias="/rspanel/comps/SectionContentItem.qml">widgets/rspanel/comps/SectionContentItem.qml</file>
+        <file alias="/rspanel/comps/ServiceControlBlock.qml">widgets/rspanel/comps/ServiceControlBlock.qml</file>
+        <file alias="/rspanel/comps/ToolPanelBase.qml">widgets/rspanel/comps/ToolPanelBase.qml</file>
+        <file alias="/rspanel/AudioPanel.qml">widgets/rspanel/AudioPanel.qml</file>
+        <file alias="/rspanel/EffectPanel.qml">widgets/rspanel/EffectPanel.qml</file>
+        <file alias="/rspanel/FilterPanel.qml">widgets/rspanel/FilterPanel.qml</file>
+        <file alias="/rspanel/MusicPanel.qml">widgets/rspanel/MusicPanel.qml</file>
+        <file alias="/rspanel/SplitScreenPanel.qml">widgets/rspanel/SplitScreenPanel.qml</file>
+        <file alias="/rspanel/TextPanel.qml">widgets/rspanel/TextPanel.qml</file>
+        <file alias="/rspanel/TransitionPanel.qml">widgets/rspanel/TransitionPanel.qml</file>
+        <file alias="/rspanel/VideoPanel.qml">widgets/rspanel/VideoPanel.qml</file>
+        <file alias="EmptyItem.qml">qml/EmptyItem.qml</file>
+        <file alias="/rspanel/comps/PanelValueSlider.qml">widgets/rspanel/comps/PanelValueSlider.qml</file>
+    </qresource>
+    <qresource prefix="/data">
+        <file alias="blacklisted_effects.txt">../data/blacklisted_effects.txt</file>
+        <file alias="blacklisted_transitions.txt">../data/blacklisted_transitions.txt</file>
+        <file alias="preferred_effects.txt">../data/preferred_effects.txt</file>
+        <file alias="kdenlive_renderprofiles.knsrc">../data/kdenlive_renderprofiles.knsrc</file>
+        <file alias="kdenlive_titles.knsrc">../data/kdenlive_titles.knsrc</file>
+        <file alias="kdenlive_wipes.knsrc">../data/kdenlive_wipes.knsrc</file>
+        <file alias="kdenlive_keyboardschemes.knsrc">../data/kdenlive_keyboardschemes.knsrc</file>
+        <file alias="kdenlive_luts.knsrc">../data/kdenlive_luts.knsrc</file>
+    </qresource>
+</RCC>

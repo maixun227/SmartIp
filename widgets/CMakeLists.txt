@@ -1,0 +1,25 @@
+set(kdenlive_SRCS
+  ${kdenlive_SRCS}
+  widgets/choosecolorwidget.cpp
+  widgets/colorpickerwidget.cpp
+  widgets/doublewidget.cpp
+  widgets/dragvalue.cpp
+  widgets/positionwidget.cpp
+  widgets/progressbutton.cpp
+  widgets/geometrywidget.cpp
+  widgets/custommenu.cpp
+  widgets/customtooltip.cpp
+  widgets/topnavigationbar.cpp
+  widgets/customeditortoolbar.cpp
+  widgets/projectmonitorframe.cpp
+  widgets/rstoolbar.cpp
+  widgets/timelinetoolbar.cpp
+  widgets/projectsettingswidget.cpp
+  widgets/menubareventpasser.cpp
+  widgets/clipmonitorframe.cpp
+  widgets/clippropertieswidget.cpp
+  widgets/framelessmovablewidget.cpp
+  widgets/colorpicker.cpp
+  widgets/tabswidget.cpp
+  PARENT_SCOPE
+)
